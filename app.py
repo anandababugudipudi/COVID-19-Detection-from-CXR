@@ -68,6 +68,9 @@ def predict():
             return render_template('output.html', prediction_text = "Reslut: COVID +ve.", note = "The Model predicted this XRay as COVID.")
         else:
             return render_template('output.html', prediction_text = "Reslut: COVID -ve.", note = "The Model predicted this XRay as Non-COVID.")
+            
+        # Delete the uploaded file
+        os.remove(path)
     else:
         return render_template('index.html')
 
