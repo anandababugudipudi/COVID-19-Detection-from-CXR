@@ -1,7 +1,7 @@
 # COVID-19-Detection-from-CXR
 # Automatic Detection of COVID-19 using Deep Learning from Chest X-Ray Images
 
-[![Project Demo Video](templates/Demo.png)](COVID-Demo.mp4)
+[![Project Demo Video](templates/Demo.png)](https://youtu.be/dp3LSP3BTmA)
 
 The pandemic, originated by Novel Coronavirus-2019 (COVID-19), continuing its devastating effect on the health, well-being, and economy of the global population. The early detection and diagnosis of COVID-19 and the accurate separation of COVID infected cases at the lowest cost in the early stage is the main challenge in the current scenario. A critical step to restrain this pandemic is the early detection of COVID-19 in the human body, to constraint the exposure and control the spread of the virus. Chest X-Rays are one of the non-invasive tools to detect this disease as the manual PCR diagnosis process is quite tedious and time-consuming. Concerning the novelty of the disease, diagnostic methods based on radiological images suffer from shortcomings despite their many applications in diagnostic centers. Accordingly, medical and computer researchers tend to use machine-learning models to analyze radiology images.
 
