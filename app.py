@@ -32,6 +32,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Load the model we saved and compile it
 model = load_model('cnn-cxr-acc-98.44_bs-32_epochs-20.h5')
+model.make_predict_function()
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 @app.route('/', methods = ['GET', 'POST'])
