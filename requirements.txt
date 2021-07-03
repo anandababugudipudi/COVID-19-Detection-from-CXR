@@ -16,6 +16,7 @@ h5py
 idna==2.10
 itsdangerous==1.1.0
 Jinja2==2.11.3
+jsonify==0.5
 Keras-Preprocessing==1.1.2
 Markdown==3.3.4
 MarkupSafe==1.1.1
