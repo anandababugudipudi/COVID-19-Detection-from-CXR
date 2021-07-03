@@ -10,13 +10,11 @@ from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
 import jsonify
 import requests
-import pickle
 import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 from keras.models import load_model
 from keras.preprocessing import image
-import numpy as np
 import pandas as pd
 from keras.layers import *
 from keras.models import *
