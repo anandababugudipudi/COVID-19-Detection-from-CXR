@@ -7,6 +7,7 @@
 ## Link for the Deployed App
 https://covid19-detection-cxr.herokuapp.com/
 
+## Introduction
 The pandemic, originated by Novel Coronavirus-2019 (COVID-19), continuing its devastating effect on the health, well-being, and economy of the global population. The early detection and diagnosis of COVID-19 and the accurate separation of COVID infected cases at the lowest cost in the early stage is the main challenge in the current scenario. A critical step to restrain this pandemic is the early detection of COVID-19 in the human body, to constraint the exposure and control the spread of the virus. Chest X-Rays are one of the non-invasive tools to detect this disease as the manual PCR diagnosis process is quite tedious and time-consuming. Concerning the novelty of the disease, diagnostic methods based on radiological images suffer from shortcomings despite their many applications in diagnostic centers. Accordingly, medical and computer researchers tend to use machine-learning models to analyze radiology images.
 
 In this project, a Deep Learning Model has been developed for the automatic detection of COVID-19. The Model will predict whether a patient is infected with Corona Virus or not by analysing the Chest X-Ray Image of the patient. The model is developed to provide accurate diagnosis for Binary Classification (COVID +ve or COIVD -ve). The developed model achieved an average classification of 98.46%. 
